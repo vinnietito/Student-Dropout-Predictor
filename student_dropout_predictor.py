@@ -1,10 +1,10 @@
 # student_dropout_predictor.py
 
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, accuracy_score
+from sklearn.model_selection import train_test_split # type: ignore
+from sklearn.preprocessing import LabelEncoder # type: ignore
+from sklearn.ensemble import RandomForestClassifier # type: ignore
+from sklearn.metrics import classification_report, accuracy_score # type: ignore
 
 # Load dataset
 df = pd.read_csv("xAPI-Edu-Data.csv")
